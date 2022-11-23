@@ -1,0 +1,232 @@
+body{
+    background: url(../img/background3.jpeg);
+    width: 100%;
+}
+
+.card {
+    background-color: #ffffff00 !important;
+    max-width:40%;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo{
+    background: url(../img/MGJLOGOWHITE1.png);
+    background-size: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+}
+
+#billed1{
+    background: url(../img/gamerpcbest.png) ; 
+    background-size: 95%;
+    background-position-x: 80%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    height: 500px;
+    max-width: 100%;
+}
+
+#kurv{
+    margin-left: 275px;
+    margin-top: 10px;
+}
+
+#gpc {
+width: 150px;
+margin-top: 55px;
+}
+
+#tekst1{
+    height: 600px;
+}
+
+#picture{
+    height: auto;
+}
+
+#glt{
+    width: 100px;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+#glt1{
+    width: 115px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+
+#glbt{
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+#picture1{
+    background: url(../img/gaminglapto.png);
+    background-repeat: no-repeat;
+    background-size: 75% 80%;
+    width: 50%;
+    background-position-x: 90%;
+    background-position-y: 60%;
+    
+}
+
+
+#picture2{
+    background: url(../img/gear321.png);
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    background-position-x: 80%;
+    background-position-y: 50%;
+    width: 50%;
+}
+
+#gg{
+    width: 100px;
+    margin-top: 15px;
+}
+
+#gg1{
+    font-size: 18px;
+    width: 100px;
+    margin-top: 15px;
+}
+
+#pics1{
+    background: url(../img/hoodie1.png);
+    background-repeat: no-repeat;
+    background-size: 60% 90%;
+    background-position-x: 90%;
+    background-position-y: 50%;
+    width: 40%;
+    height: 350px;
+}
+
+#merch{
+    width: 120px;
+    margin-top: 10px;
+}
+
+#merch1{
+    width: 80px;
+    margin-top: 30px;
+}
+
+#pics2{
+    background: url(../img/toollightblue.png);
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    background-position-x: 80%;
+    background-position-y: 50%;
+    width: 60%;
+    height: 350px;
+}
+
+#rep{
+    width: 100px;
+    margin-top: 10px;
+}
+
+#rep1{
+    width: 100px;
+    margin-top: 30px;
+}
+
+#footer{
+    height: 200px;
+}
+
+@media only screen and (max-width: 680px) {
+    #billed1 {
+        background-position-x: 390%;
+    }
+
+    #searchbar{
+        min-width: 200px;
+        
+    }
+
+    #pics2{
+        width: 100%;
+        height: 350px;
+    }
+    
+    #pics1{
+        width: 100%;
+        height: 350px;
+        margin-bottom: 40px;
+    }
+
+    #pics {
+        flex-direction: column;
+    }
+    .pics1 {
+        max-width: 100%;
+    }
+
+    .pics2 {
+        max-width: 100%;
+    }
+
+   
+   
+    #picture1{ 
+        width: 100%;
+        height: 350px;
+        margin-bottom: 40px;
+    }
+
+    #picture2{
+        width: 100%;
+        height: 350px;
+    }
+
+    #picture{
+        flex-direction: column;
+    }
+
+    .picture1{
+        max-width: 100%;
+    }
+
+    .picture2   {
+        max-width: 100%;
+    }
+    
+    #footer{
+        width: 100%;
+    }
+
+    #handel1{
+    width: 50%;    
+    }
+
+    #handel2{
+        width: 50%;    
+        }
+
+
+        #handel3{
+            width: 50%;    
+            }
+
+            #handel4{
+                width: 50%;    
+                }
+    
+
+    #k1, #k2, #k3, #k4, #k5, #k6{
+        width: 30%;
+        margin-left: 13%;
+    }
+
+    .logo{
+        background-size: 100%;
+    }
+
+  }
